@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+
+body {
+    height: 100vh;
+    text-align: center;
+    background: whitesmoke;
+}
+
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: cornflowerblue;
+    margin-bottom: .5rem;
+}
+
+.navlink {
+    color: darkred;
+}
+
+.title {
+    color: rgb(0, 75, 0);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
